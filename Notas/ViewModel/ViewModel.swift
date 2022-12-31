@@ -60,5 +60,4 @@ class ViewModel : ObservableObject {
             print("no se pudo editar", error.localizedDescription)
         }
     }
-    
 }

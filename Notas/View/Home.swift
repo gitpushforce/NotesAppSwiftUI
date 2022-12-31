@@ -73,14 +73,6 @@ struct Home: View {
                     addView(model: model)
                 })
         }
-        
-//        Button(action: {
-//            model.show.toggle()
-//        }){
-//            Text("+")
-//        }.sheet(isPresented: $model.show, content: {
-//            addView(model: model)
-//        })
     }
 }
 
